@@ -60,13 +60,30 @@ ul li {
 #content ul {
     padding: 0px;
 }
+#content ul li {
+    border: 1px solid #cccccc;
+}
+#content .tab li {
+    padding: 15px 25px;
+    background-color: #eeeeee;
+    margin: 0px;
+    border-radius: 15px 15px 0 0;
+    list-style-type: none;
+    float: left;
+}
+#content .tab .tab-active {
+    background-color: white;
+}
+#content hr {
+    clear: both;
+    color: #cccccc;
+}
 #content .row {
     display: flex;
     justify-content: space-between;
 }
 #content .row li {
     padding: 80px;
-    border: 1px solid #cccccc;
     margin: 0px;
     font-size: 14px;
 }
