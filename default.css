@@ -60,9 +60,11 @@ ul li {
 #content #tab-wrapper {
     border: 1px solid #cccccc;
 }
+#content #tab-wrapper ul {
+    margin-bottom: -1px;
+}
 #content ul {
     padding: 0px;
-    margin-bottom: -1px;
 }
 #content ul li {
     border: 1px solid #cccccc;
