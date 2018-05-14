@@ -57,8 +57,12 @@ ul li {
     background-color: #e0f0d5;
     padding-top: 25px;
 }
+#content #tab-wrapper {
+    border: 1px solid #cccccc;
+}
 #content ul {
     padding: 0px;
+    margin-bottom: -1px;
 }
 #content ul li {
     border: 1px solid #cccccc;
@@ -69,14 +73,10 @@ ul li {
     margin: 0px;
     border-radius: 15px 15px 0 0;
     list-style-type: none;
-    float: left;
 }
 #content .tab .tab-active {
     background-color: white;
-}
-#content hr {
-    clear: both;
-    color: #cccccc;
+    border-bottom: 1px solid white;
 }
 #content .row {
     display: flex;
